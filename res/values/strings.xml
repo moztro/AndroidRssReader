@@ -6,5 +6,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="title">Post Title</string>
     <string name="pub_date">01 Ene 2013</string>
+    <string name="rss_cnn">http://rss.cnn.com/rss/cnn_tech.rss?format=xml</string>
+    <string name="share_label">Share</string>
+    <string name="title_activity_post_view">PostViewActivity</string>
 
 </resources>

@@ -9,7 +9,7 @@ package com.moztrodev.app.rssreader.utils;
  */
 public abstract class StringUtils {
 
-	public static String quitarNBSPs(String texto){		
+	public static String removeNBSPs(String texto){		
 		return texto.replace("nbsp", "");
 	}
 }

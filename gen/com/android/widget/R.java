@@ -21,16 +21,16 @@ public final class R {
 	public static final class id {
 		public static final int load_more_footer = 0x7f090003;
 		public static final int load_more_progressBar = 0x7f090005;
-		public static final int pull_to_refresh_header = 0x7f090006;
-		public static final int pull_to_refresh_image = 0x7f090008;
-		public static final int pull_to_refresh_progress = 0x7f090007;
-		public static final int pull_to_refresh_text = 0x7f090009;
-		public static final int pull_to_refresh_updated_at = 0x7f09000a;
+		public static final int pull_to_refresh_header = 0x7f090009;
+		public static final int pull_to_refresh_image = 0x7f09000b;
+		public static final int pull_to_refresh_progress = 0x7f09000a;
+		public static final int pull_to_refresh_text = 0x7f09000c;
+		public static final int pull_to_refresh_updated_at = 0x7f09000d;
 		public static final int top_line = 0x7f090004;
 	}
 	public static final class layout {
 		public static final int load_more_footer = 0x7f030002;
-		public static final int pull_to_refresh_header = 0x7f030003;
+		public static final int pull_to_refresh_header = 0x7f030004;
 	}
 	public static final class string {
 		public static final int app_name = 0x7f050001;

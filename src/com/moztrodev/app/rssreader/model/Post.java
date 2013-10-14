@@ -60,4 +60,10 @@ public class Post implements Parcelable{
 			return new Post[size];
 		}
 	};
+	
+	@Override
+	public String toString(){
+		return this.Content+"<br>"
+				+ "<a href='" + this.Link + "'>Go to website</a>";
+	}
 }

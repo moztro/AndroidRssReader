@@ -33,27 +33,32 @@ public final class R {
         public static final int moztrodev=0x7f020003;
     }
     public static final class id {
-        public static final int action_settings=0x7f09000b;
+        public static final int action_settings=0x7f09000e;
         public static final int image=0x7f090000;
         public static final int load_more_footer=0x7f090003;
         public static final int load_more_progressBar=0x7f090005;
+        public static final int post_view=0x7f090006;
         public static final int pub_date=0x7f090002;
-        public static final int pull_to_refresh_header=0x7f090006;
-        public static final int pull_to_refresh_image=0x7f090008;
-        public static final int pull_to_refresh_progress=0x7f090007;
-        public static final int pull_to_refresh_text=0x7f090009;
-        public static final int pull_to_refresh_updated_at=0x7f09000a;
+        public static final int pull_to_refresh_header=0x7f090009;
+        public static final int pull_to_refresh_image=0x7f09000b;
+        public static final int pull_to_refresh_progress=0x7f09000a;
+        public static final int pull_to_refresh_text=0x7f09000c;
+        public static final int pull_to_refresh_updated_at=0x7f09000d;
+        public static final int social_button=0x7f090008;
         public static final int title=0x7f090001;
         public static final int top_line=0x7f090004;
+        public static final int webview=0x7f090007;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int item=0x7f030001;
         public static final int load_more_footer=0x7f030002;
-        public static final int pull_to_refresh_header=0x7f030003;
+        public static final int post_view=0x7f030003;
+        public static final int pull_to_refresh_header=0x7f030004;
     }
     public static final class menu {
         public static final int main=0x7f080000;
+        public static final int post_view=0x7f080001;
     }
     public static final class string {
         public static final int action_settings=0x7f050006;
@@ -65,7 +70,10 @@ public final class R {
         public static final int pull_to_refresh_refreshing_label=0x7f050004;
         public static final int pull_to_refresh_release_label=0x7f050003;
         public static final int pull_to_refresh_tap_label=0x7f050005;
+        public static final int rss_cnn=0x7f05000a;
+        public static final int share_label=0x7f05000b;
         public static final int title=0x7f050008;
+        public static final int title_activity_post_view=0x7f05000c;
     }
     public static final class style {
         /** 

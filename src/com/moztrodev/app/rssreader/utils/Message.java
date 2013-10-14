@@ -10,11 +10,11 @@ import android.widget.Toast;
  * @author DANIEL
  *
  */
-public abstract class Mensaje {
+public abstract class Message {
 
-	public static void mostrar(Context context, String mensaje){
+	public static void show(Context context, String message){
 		Toast.makeText(context, 
-					   mensaje, 
-					   Toast.LENGTH_LONG).show();
+				message, 
+				Toast.LENGTH_LONG).show();
 	}
 }
