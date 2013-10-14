@@ -49,17 +49,17 @@ public class PostViewActivity extends Activity {
 	
 	private void showPost(){
 		title.setText(post.Title);
-        pubDate.setText("Pub date: "+post.PubDate);
-        
-        WebSettings webSett = webView.getSettings();
-        webSett.setLayoutAlgorithm(LayoutAlgorithm.SINGLE_COLUMN);
-        webSett.setDefaultTextEncodingName("UTF-8");
-        webSett.setBuiltInZoomControls(true);
-        webView.loadDataWithBaseURL(post.Link,
-        		StringUtils.removeNBSPs(post.toString()), 
-        		"text/html", 
-        		"UTF-8", 
-        		null);
+		pubDate.setText("Pub date: "+post.PubDate);
+		
+		WebSettings webSett = webView.getSettings();
+		webSett.setLayoutAlgorithm(LayoutAlgorithm.SINGLE_COLUMN);
+		webSett.setDefaultTextEncodingName("UTF-8");
+		webSett.setBuiltInZoomControls(true);
+		webView.loadDataWithBaseURL(post.Link,
+				StringUtils.removeNBSPs(post.toString()),
+				"text/html",
+				"UTF-8",
+				null);
 	}
 	
 	private void share(){

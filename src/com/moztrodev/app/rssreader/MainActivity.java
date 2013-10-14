@@ -103,9 +103,9 @@ public class MainActivity extends ListActivity {
 		protected void onPreExecute(){
 			if(isMainLoad){
 				dialog = new ProgressDialog(MainActivity.this);
-	            dialog.setMessage("Loading news...");
-	            dialog.setCancelable(false);
-	    		dialog.show();
+				dialog.setMessage("Loading news...");
+				dialog.setCancelable(false);
+				dialog.show();
 			}
 		}
 		
@@ -259,17 +259,17 @@ public class MainActivity extends ListActivity {
 	}
 
 	private boolean haveInternet(){
-    	ConnectivityManager connManager = (ConnectivityManager)
-    			getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);
-    	NetworkInfo network = null;
-    	
-    	if(connManager != null){
-    		network = connManager
-    				.getNetworkInfo(ConnectivityManager.TYPE_WIFI);    		
-    		if(!network.isAvailable())
-    			network = connManager
-    				.getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
-    	}    	    	
-    	return network==null ? false : network.isConnected();
+		ConnectivityManager connManager = (ConnectivityManager)
+				getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);
+		NetworkInfo network = null;
+		
+		if(connManager != null){
+			network = connManager
+					.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
+			if(!network.isAvailable()){
+				network = connManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
+			}
+		}
+		return network==null ? false : network.isConnected();
     }
 }
